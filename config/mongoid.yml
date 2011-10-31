@@ -1,0 +1,26 @@
+development:
+  host: staff.mongohq.com
+  port: 10042
+  username: mongo
+  password: pargolf
+  database: funry_test
+  
+test:
+  host: staff.mongohq.com
+  port: 10042
+  username: mongo
+  password: pargolf
+  database: funry_test
+
+# set these environment variables on your prod server
+production:
+  host: staff.mongohq.com
+  port: 10042
+  username: mongo
+  password: pargolf
+  database: funry_test
+  # slaves:
+  #   - host: slave1.local
+  #     port: 27018
+  #   - host: slave2.local
+  #     port: 27019
